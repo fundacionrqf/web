@@ -1,0 +1,40 @@
+:root {
+    --color-01: #A43D40;
+    --color-02: #EDF0DA;
+    --color-03: #4F4941;
+    --color-04: #FFF6DC;
+    --color-05: #8F5C38;
+
+    --color-b: #333;
+    --color-w: #f0f0f0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-w);
+    color: var(--color-b);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-01);
+    color: var(--color-w);
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section {
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: var(--color-b);
+}
